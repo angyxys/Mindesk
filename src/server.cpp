@@ -84,6 +84,8 @@ void Server::terminate() {
   if (display_) {
     wl_display_terminate(display_);
   }
+
+  
 }
 
 }
